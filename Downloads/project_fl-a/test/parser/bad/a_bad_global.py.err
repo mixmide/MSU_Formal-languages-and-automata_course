@@ -1,4 +1,0 @@
-CHECK:      a_bad_global.py:7:1: error: Unexpected token [global]: global
-CHECK-NEXT: global x
-
-CHECK: 1 error generated!

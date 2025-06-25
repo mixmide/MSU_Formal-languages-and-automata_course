@@ -1,4 +1,0 @@
-CHECK:      a_bad_print.py:3:12: error: Unexpected token [r_paren]: )
-CHECK-NEXT: print(1, 2,)
-
-CHECK:      1 error generated!
