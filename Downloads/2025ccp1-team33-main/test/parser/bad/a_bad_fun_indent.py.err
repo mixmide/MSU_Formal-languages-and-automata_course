@@ -1,0 +1,7 @@
+CHECK:      a_bad_fun_indent.py:4:1: error: Parse error near token [identifier]: x
+CHECK-NEXT: x:int = 1
+
+CHECK:      a_bad_fun_indent.py:4:1: error: Expected token INDENT
+CHECK-NEXT: x:int = 1
+
+CHECK:      2 errors generated!

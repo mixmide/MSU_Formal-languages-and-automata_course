@@ -1,0 +1,10 @@
+CHECK:      a_bad_else.py:3:1: error: Unexpected token [else]: else
+CHECK-NEXT: else
+
+CHECK:      a_bad_else.py:4:1: error: Unexpected token [INDENT]
+CHECK-NEXT: print("else_OK")
+
+CHECK:      a_bad_else.py:6:1: error: Unexpected token [DEDENT]
+CHECK-NEXT: print("after_else_OK")
+
+CHECK:      3 errors generated!

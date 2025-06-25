@@ -1,0 +1,68 @@
+{
+  "kind": "Program",
+  "declarations": [
+    {
+      "kind": "FuncDef",
+      "location": [
+        6,
+        1,
+        9,
+        1
+      ],
+      "name": {
+        "kind": "Identifier",
+        "location": [
+          6,
+          5,
+          6,
+          6
+        ],
+        "name": "f"
+      },
+      "params": [],
+      "returnType": {
+        "kind": "ClassType",
+        "location": [
+          6,
+          12,
+          6,
+          15
+        ],
+        "className": "int"
+      },
+      "declarations": [],
+      "statemets": []
+    }
+  ],
+  "statements": [
+    {
+      "kind": "ExprStmt",
+      "location": [
+        9,
+        1,
+        9,
+        4
+      ],
+      "expr": {
+        "kind": "CallExpr",
+        "location": [
+          9,
+          1,
+          9,
+          4
+        ],
+        "function": {
+          "kind": "DeclRef",
+          "location": [
+            9,
+            1,
+            9,
+            2
+          ],
+          "name": "f"
+        },
+        "args": []
+      }
+    }
+  ]
+}

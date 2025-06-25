@@ -1,0 +1,107 @@
+{
+  "kind": "Program",
+  "declarations": [
+    {
+      "kind": "VarDef",
+      "location": [
+        3,
+        1,
+        3,
+        13
+      ],
+      "name": {
+        "kind": "Identifier",
+        "location": [
+          3,
+          1,
+          3,
+          2
+        ],
+        "name": "a"
+      },
+      "type": {
+        "kind": "ClassType",
+        "location": [
+          3,
+          3,
+          3,
+          6
+        ],
+        "className": "int"
+      },
+      "value": {
+        "kind": "BooleanLiteral",
+        "location": [
+          3,
+          9,
+          3,
+          13
+        ],
+        "value": "true"
+      }
+    }
+  ],
+  "statements": [
+    {
+      "kind": "AssignStmt",
+      "location": [
+        4,
+        1,
+        4,
+        11
+      ],
+      "targets": [
+        {
+          "kind": "DeclRef",
+          "location": [
+            4,
+            1,
+            4,
+            2
+          ],
+          "name": "a"
+        }
+      ],
+      "value": {
+        "left": {
+          "kind": "IntegerLiteral",
+          "location": [
+            4,
+            5,
+            4,
+            6
+          ],
+          "value": 4
+        },
+        "kind": "BinaryExpr",
+        "location": [
+          4,
+          5,
+          4,
+          11
+        ],
+        "operator": "+",
+        "right": {
+          "kind": "UnaryExpr",
+          "location": [
+            4,
+            9,
+            4,
+            11
+          ],
+          "operator": "-",
+          "operand": {
+            "kind": "IntegerLiteral",
+            "location": [
+              4,
+              10,
+              4,
+              11
+            ],
+            "value": 4
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "kind": "Program",
+  "declarations": [
+    {
+      "kind": "VarDef",
+      "location": [
+        6,
+        1,
+        6,
+        12
+      ],
+      "name": {
+        "kind": "Identifier",
+        "location": [
+          6,
+          1,
+          6,
+          4
+        ],
+        "name": "val"
+      },
+      "type": {
+        "kind": "ClassType",
+        "location": [
+          6,
+          5,
+          6,
+          8
+        ],
+        "className": "int"
+      },
+      "value": {
+        "kind": "IntegerLiteral",
+        "location": [
+          6,
+          11,
+          6,
+          12
+        ],
+        "value": 0
+      }
+    },
+    {
+      "kind": "VarDef",
+      "location": [
+        7,
+        1,
+        7,
+        22
+      ],
+      "name": {
+        "kind": "Identifier",
+        "location": [
+          7,
+          1,
+          7,
+          9
+        ],
+        "name": "res_list"
+      },
+      "type": {
+        "kind": "ListType",
+        "location": [
+          7,
+          10,
+          7,
+          17
+        ],
+        "elementType": {
+          "kind": "ClassType",
+          "location": [
+            7,
+            11,
+            7,
+            14
+          ],
+          "className": "int"
+        }
+      },
+      "value": {
+        "kind": "NoneLiteral",
+        "location": [
+          7,
+          18,
+          7,
+          22
+        ]
+      }
+    },
+    {
+      "kind": "VarDef",
+      "location": [
+        8,
+        1,
+        8,
+        13
+      ],
+      "name": {
+        "kind": "Identifier",
+        "location": [
+          8,
+          1,
+          8,
+          2
+        ],
+        "name": "s"
+      },
+      "type": {
+        "kind": "ClassType",
+        "location": [
+          8,
+          3,
+          8,
+          6
+        ],
+        "className": "str"
+      },
+      "value": {
+        "kind": "StringLiteral",
+        "location": [
+          8,
+          10,
+          8,
+          13
+        ],
+        "value": "xyz"
+      }
+    },
+    {
+      "kind": "VarDef",
+      "location": [
+        9,
+        1,
+        9,
+        12
+      ],
+      "name": {
+        "kind": "Identifier",
+        "location": [
+          9,
+          1,
+          9,
+          2
+        ],
+        "name": "c"
+      },
+      "type": {
+        "kind": "ClassType",
+        "location": [
+          9,
+          3,
+          9,
+          6
+        ],
+        "className": "str"
+      },
+      "value": {
+        "kind": "StringLiteral",
+        "location": [
+          9,
+          10,
+          9,
+          12
+        ],
+        "value": "ok"
+      }
+    },
+    {
+      "kind": "VarDef",
+      "location": [
+        10,
+        1,
+        10,
+        20
+      ],
+      "name": {
+        "kind": "Identifier",
+        "location": [
+          10,
+          1,
+          10,
+          10
+        ],
+        "name": "res_upper"
+      },
+      "type": {
+        "kind": "ClassType",
+        "location": [
+          10,
+          11,
+          10,
+          14
+        ],
+        "className": "str"
+      },
+      "value": {
+        "kind": "StringLiteral",
+        "location": [
+          10,
+          18,
+          10,
+          20
+        ],
+        "value": "ok"
+      }
+    },
+    {
+      "kind": "FuncDef",
+      "location": [
+        12,
+        1,
+        13,
+        24
+      ],
+      "name": {
+        "kind": "Identifier",
+        "location": [
+          12,
+          5,
+          12,
+          13
+        ],
+        "name": "get_list"
+      },
+      "params": [],
+      "returnType": {
+        "kind": "ListType",
+        "location": [
+          12,
+          19,
+          12,
+          25
+        ],
+        "elementType": {
+          "kind": "ClassType",
+          "location": [
+            12,
+            20,
+            12,
+            23
+          ],
+          "className": "int"
+        }
+      },
+      "declarations": [],
+      "statemets": [
+        {
+          "kind": "ReturnStmt",
+          "location": [
+            13,
+            5,
+            13,
+            24
+          ],
+          "value": {
+            "kind": "ListExpr",
+            "location": [
+              13,
+              12,
+              13,
+              24
+            ],
+            "elements": [
+              {
+                "kind": "IntegerLiteral",
+                "location": [
+                  13,
+                  13,
+                  13,
+                  15
+                ],
+                "value": 10
+              },
+              {
+                "kind": "IntegerLiteral",
+                "location": [
+                  13,
+                  17,
+                  13,
+                  19
+                ],
+                "value": 20
+              },
+              {
+                "kind": "IntegerLiteral",
+                "location": [
+                  13,
+                  21,
+                  13,
+                  23
+                ],
+                "value": 30
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "kind": "AssignStmt",
+      "location": [
+        16,
+        1,
+        16,
+        22
+      ],
+      "targets": [
+        {
+          "kind": "DeclRef",
+          "location": [
+            16,
+            1,
+            16,
+            9
+          ],
+          "name": "res_list"
+        }
+      ],
+      "value": {
+        "kind": "CallExpr",
+        "location": [
+          16,
+          12,
+          16,
+          22
+        ],
+        "function": {
+          "kind": "DeclRef",
+          "location": [
+            16,
+            12,
+            16,
+            20
+          ],
+          "name": "get_list"
+        },
+        "args": []
+      }
+    },
+    {
+      "kind": "AssignStmt",
+      "location": [
+        17,
+        1,
+        17,
+        20
+      ],
+      "targets": [
+        {
+          "kind": "DeclRef",
+          "location": [
+            17,
+            1,
+            17,
+            4
+          ],
+          "name": "val"
+        }
+      ],
+      "value": {
+        "kind": "IndexExpr",
+        "location": [
+          17,
+          7,
+          17,
+          20
+        ],
+        "list": {
+          "kind": "CallExpr",
+          "location": [
+            17,
+            7,
+            17,
+            17
+          ],
+          "function": {
+            "kind": "DeclRef",
+            "location": [
+              17,
+              7,
+              17,
+              15
+            ],
+            "name": "get_list"
+          },
+          "args": []
+        },
+        "index": {
+          "kind": "IntegerLiteral",
+          "location": [
+            17,
+            18,
+            17,
+            19
+          ],
+          "value": 1
+        }
+      }
+    },
+    {
+      "kind": "AssignStmt",
+      "location": [
+        20,
+        1,
+        20,
+        9
+      ],
+      "targets": [
+        {
+          "kind": "DeclRef",
+          "location": [
+            20,
+            1,
+            20,
+            2
+          ],
+          "name": "c"
+        }
+      ],
+      "value": {
+        "kind": "IndexExpr",
+        "location": [
+          20,
+          5,
+          20,
+          9
+        ],
+        "list": {
+          "kind": "DeclRef",
+          "location": [
+            20,
+            5,
+            20,
+            6
+          ],
+          "name": "s"
+        },
+        "index": {
+          "kind": "IntegerLiteral",
+          "location": [
+            20,
+            7,
+            20,
+            8
+          ],
+          "value": 2
+        }
+      }
+    },
+    {
+      "kind": "AssignStmt",
+      "location": [
+        29,
+        1,
+        29,
+        25
+      ],
+      "targets": [
+        {
+          "kind": "DeclRef",
+          "location": [
+            29,
+            1,
+            29,
+            10
+          ],
+          "name": "res_upper"
+        }
+      ],
+      "value": {
+        "kind": "MethodCallExpr",
+        "location": [
+          29,
+          13,
+          29,
+          25
+        ],
+        "method": {
+          "kind": "MemberExpr",
+          "location": [
+            29,
+            13,
+            29,
+            23
+          ],
+          "object": {
+            "kind": "IndexExpr",
+            "location": [
+              29,
+              13,
+              29,
+              17
+            ],
+            "list": {
+              "kind": "DeclRef",
+              "location": [
+                29,
+                13,
+                29,
+                14
+              ],
+              "name": "s"
+            },
+            "index": {
+              "kind": "IntegerLiteral",
+              "location": [
+                29,
+                15,
+                29,
+                16
+              ],
+              "value": 1
+            }
+          },
+          "member": {
+            "kind": "DeclRef",
+            "location": [
+              29,
+              18,
+              29,
+              23
+            ],
+            "name": "upper"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "kind": "ExprStmt",
+      "location": [
+        31,
+        1,
+        31,
+        11
+      ],
+      "expr": {
+        "kind": "CallExpr",
+        "location": [
+          31,
+          1,
+          31,
+          11
+        ],
+        "function": {
+          "kind": "DeclRef",
+          "location": [
+            31,
+            1,
+            31,
+            6
+          ],
+          "name": "print"
+        },
+        "args": [
+          {
+            "kind": "DeclRef",
+            "location": [
+              31,
+              7,
+              31,
+              10
+            ],
+            "name": "val"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "ExprStmt",
+      "location": [
+        32,
+        1,
+        32,
+        9
+      ],
+      "expr": {
+        "kind": "CallExpr",
+        "location": [
+          32,
+          1,
+          32,
+          9
+        ],
+        "function": {
+          "kind": "DeclRef",
+          "location": [
+            32,
+            1,
+            32,
+            6
+          ],
+          "name": "print"
+        },
+        "args": [
+          {
+            "kind": "DeclRef",
+            "location": [
+              32,
+              7,
+              32,
+              8
+            ],
+            "name": "c"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "ExprStmt",
+      "location": [
+        33,
+        1,
+        33,
+        17
+      ],
+      "expr": {
+        "kind": "CallExpr",
+        "location": [
+          33,
+          1,
+          33,
+          17
+        ],
+        "function": {
+          "kind": "DeclRef",
+          "location": [
+            33,
+            1,
+            33,
+            6
+          ],
+          "name": "print"
+        },
+        "args": [
+          {
+            "kind": "DeclRef",
+            "location": [
+              33,
+              7,
+              33,
+              16
+            ],
+            "name": "res_upper"
+          }
+        ]
+      }
+    }
+  ]
+}

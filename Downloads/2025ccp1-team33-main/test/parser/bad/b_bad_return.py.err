@@ -1,0 +1,4 @@
+CHECK:      b_bad_return.py:6:7: error: Unexpected token [NEWLINE]
+CHECK-NEXT: return
+
+CHECK:      1 error generated!
