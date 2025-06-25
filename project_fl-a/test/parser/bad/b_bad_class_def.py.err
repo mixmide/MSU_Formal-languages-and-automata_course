@@ -1,0 +1,13 @@
+CHECK:      b_bad_class_def.py:3:10: error: Parse error near token [comma]: ,
+CHECK-NEXT: class A(B, C):
+
+CHECK:      b_bad_class_def.py:3:10: error: Expected token r_paren
+CHECK-NEXT: class A(B, C):
+
+CHECK:      b_bad_class_def.py:4:1: error: Unexpected token [INDENT]
+CHECK-NEXT: x: int = 1
+
+CHECK:      b_bad_class_def.py:4:15: error: Unexpected token [DEDENT]
+CHECK-NEXT: x: int = 1
+
+CHECK: 4 errors generated!

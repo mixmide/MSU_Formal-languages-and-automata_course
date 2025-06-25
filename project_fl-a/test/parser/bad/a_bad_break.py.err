@@ -1,0 +1,4 @@
+CHECK:      a_bad_break.py:3:1: error: Unexpected token [break]: break
+CHECK-NEXT: break
+
+CHECK:      1 error generated!

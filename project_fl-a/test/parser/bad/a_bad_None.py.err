@@ -1,0 +1,2 @@
+CHECK:      a_bad_None.py:3:12: error: Parse error near token [l_square]: [
+CHECK:      1 error generated!

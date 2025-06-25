@@ -1,0 +1,4 @@
+CHECK:      a_bad_continue.py:3:1: error: Unexpected token [continue]: continue
+CHECK-NEXT: continue
+
+CHECK:      1 error generated!

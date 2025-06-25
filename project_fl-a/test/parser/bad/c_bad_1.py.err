@@ -1,0 +1,4 @@
+CHECK:      c_bad_1.py:5:1: error: Lex error: Indent amount does not match previous indent
+CHECK-NEXT: y = 2
+
+CHECK:      1 error generated!

@@ -1,0 +1,4 @@
+CHECK:      a_bad_nonlocal.py:10:1: error: Unexpected token [nonlocal]: nonlocal
+CHECK-NEXT: nonlocal x
+
+CHECK:      1 error generated!

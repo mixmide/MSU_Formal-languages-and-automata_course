@@ -1,0 +1,7 @@
+CHECK:      a_bad_if.py:5:1: error: Parse error near token [identifier]: print
+CHECK-NEXT: print("Ok")
+
+CHECK:      a_bad_if.py:5:1: error: Expected token INDENT
+CHECK-NEXT: print("Ok")
+
+CHECK:      2 errors generated!
